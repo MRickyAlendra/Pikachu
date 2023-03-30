@@ -1,0 +1,40 @@
+* {
+  margin: 10px 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  border: 1px solid rgb(255, 196, 0);
+  background-color: yellow;
+  width: 175px;
+  height: 225px;
+  padding: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 150px;
+  height: 125px;
+  margin: 10px auto;
+}
+
+.card .name {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.card .info {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+#get-pikachu-button {
+  margin-top: 20px;
+}
